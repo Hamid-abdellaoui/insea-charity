@@ -1,2 +1,7 @@
-### insea-charity-v4
-https://hamid-abdellaoui.github.io/insea-charity-v4/
+### insea-charity
+
+via this link : https://insea-charity.netlify.app/
+
+or this link :
+
+https://hamid-abdellaoui.github.io/insea-charity/
