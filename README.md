@@ -1,5 +1,5 @@
 # INSEA CHARITY
-you can access this website via this link :
+This is the repository of official INSEA Charity website you can access it via this link :
 
 https://insea-charity.netlify.app/
 
