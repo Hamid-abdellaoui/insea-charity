@@ -1,4 +1,4 @@
-##### INSEA CHARITY
+# INSEA CHARITY
 you can access this website via this link :
 
 https://insea-charity.netlify.app/
