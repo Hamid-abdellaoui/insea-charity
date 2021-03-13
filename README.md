@@ -2,11 +2,7 @@
 ![INSEA Charity](https://github.com/Hamid-abdellaoui/insea-charity/blob/main/assets/images/bgrm.jpg)
 This is the repository of official INSEA Charity website you can access it via this link :
 
-https://insea-charity.netlify.app/
+https://insea-charity.com
 
-or this link :
 
-https://hamid-abdellaoui.github.io/insea-charity/
-
-if u like it let a star :)
 
