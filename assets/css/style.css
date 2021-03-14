@@ -998,6 +998,12 @@ form .alert {
     font-size: 16px;
     margin: 0;
   }
+    .carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  min-height: 200px;  
+  min-width: 400px;
+
+}
   .carousel-home .carousel-subtitle {
     font-size: 14px;
     margin: 0;
