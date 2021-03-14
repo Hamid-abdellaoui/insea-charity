@@ -222,9 +222,9 @@ a:hover, a:focus, a:active {
   padding:5px 15px 3px 15px ;
   text-align: center;
   background-size: 100%;
-  background-image: -moz-linear-gradient(0deg,rgb(226, 104, 104) 30%, rgb(207, 34, 63)  100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(226, 104, 104) 30%, rgb(207, 34, 63)  100%);
-  background-image: linear-gradient(0deg,rgb(226, 104, 104) 30%, rgb(207, 34, 63)  100%);
+  background-image: -moz-linear-gradient(0deg,rgb(251, 93, 93) 30%, rgb(207, 34, 63)  100%);
+  background-image: -webkit-linear-gradient(0deg, rgb(251, 93, 93) 30%, rgb(207, 34, 63)  100%);
+  background-image: linear-gradient(0deg,rgb(251, 93, 93) 30%, rgb(207, 34, 63)  100%);
   color: #fff;
 }
 .about-us-col:hover{
