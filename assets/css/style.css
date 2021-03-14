@@ -1,5 +1,6 @@
 /*------------------------------------------------------------------------------------------------------------------------
- --------------------------------------------------------------------------------------------------------------------- */
+HAMID ABDELLAOUI MARS 2021
+--------------------------------------------------------------------------------------------------------------------- */
 
 /* =============================================================================
   Base
@@ -62,7 +63,7 @@ a:hover, a:focus, a:active {
   color: rgba(236, 33, 33, 0.959);
 }
 .fa-heart:hover{
-  color: rgb(68, 142, 228);
+  color: rgb(0, 255, 234);
 }
 .fa-phone:hover , .fa-whatsapp:hover{
   color: rgb(12, 243, 12);
@@ -71,7 +72,7 @@ a:hover, a:focus, a:active {
   margin-left: 12px;
 }
 .tweet .fa-map-marker{
-  color: rgb(68, 142, 228);
+  color: rgb(207, 34, 63);
 }
 
 /* Header 
@@ -83,7 +84,7 @@ a:hover, a:focus, a:active {
 }
 
 .navbar-top {
-  background: #5d001e;
+  background: #ac0036;
   font-size: 12px;
   padding: 3px 0;
 }
@@ -100,7 +101,7 @@ a:hover, a:focus, a:active {
 .navbar-main {
   margin-bottom: 0;
   color: #fff;
-  background: #9a1750;
+  background: rgb(226, 6, 72);
 }
 .navbar-main .navbar-brand {
   border-bottom: none !important;
@@ -117,7 +118,7 @@ a:hover, a:focus, a:active {
 .navbar-main .submenu {
   position: absolute;
   list-style: none;
-  background: #9a1750;
+  background: rgb(226, 6, 72);
   padding: 0;
   width: 150px;
   left: -35px;
@@ -129,10 +130,10 @@ a:hover, a:focus, a:active {
   transition: all, 0.05s;
 }
 .navbar-main .submenu li {
-  border-top: 1px solid #5d001e;
+  border-top: 1px solid #ac0036;
 }
 .navbar-main .submenu li:hover {
-  background: #5d001e;
+  background: #ac0036;
   -moz-transition: all, 0.3s;
   -o-transition: all, 0.3s;
   -webkit-transition: all, 0.3s;
@@ -170,7 +171,7 @@ a:hover, a:focus, a:active {
   width: 100%;
 }
 .carousel-home .carousel-control {
-  background: #9a1750;
+  background: rgb(226, 6, 72);
   height: 80px;
   width: 40px;
   top: 50%;
@@ -221,9 +222,9 @@ a:hover, a:focus, a:active {
   padding:5px 15px 3px 15px ;
   text-align: center;
   background-size: 100%;
-  background-image: -moz-linear-gradient(0deg,rgb(68, 142, 228) 30%, rgb(68, 187, 187) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(68, 142, 228) 30%, rgb(68, 187, 187) 100%);
-  background-image: linear-gradient(0deg,rgb(68, 142, 228) 30%, rgb(68, 187, 187) 100%);
+  background-image: -moz-linear-gradient(0deg,rgb(226, 104, 104) 30%, rgb(207, 34, 63)  100%);
+  background-image: -webkit-linear-gradient(0deg, rgb(226, 104, 104) 30%, rgb(207, 34, 63)  100%);
+  background-image: linear-gradient(0deg,rgb(226, 104, 104) 30%, rgb(207, 34, 63)  100%);
   color: #fff;
 }
 .about-us-col:hover{
@@ -241,14 +242,14 @@ a:hover, a:focus, a:active {
   margin-bottom: 25px;
 }
 .col-details .btn-secondary{
-  background-color: rgb(45, 93, 148);
+  background-color:  rgb(207, 34, 63);
   color: white;
   border:1px solid white;
 }
 .col-details .btn-secondary:hover{
   background-color: white;
-  color: rgb(45, 93, 148) ;
-  border:1px solid rgb(45, 93, 148) ;
+  color:  rgb(207, 34, 63) ;
+  border:1px solid  rgb(207, 34, 63) ;
 }
 /* home/reasons 
 ================================= */
@@ -271,7 +272,7 @@ a:hover, a:focus, a:active {
   position: absolute;
   bottom: 0;
   text-align: center;
-  background: linear-gradient(-100deg, rgba(116, 0, 31, 0.823) 30%, rgba(116, 0, 0, 0.828) 100%);
+  background: linear-gradient(-100deg, rgba(209, 13, 39, 0.746) 30%, rgba(207, 12, 77, 0.76) 100%);
   width: 100%;
   color: #fff;
   text-transform: uppercase;
@@ -289,7 +290,7 @@ a:hover, a:focus, a:active {
   padding: 25px;
   color: #fff;
   text-align: justify;
-  background: rgba(116, 0, 0, 0.842) ;
+  background: rgba(148, 11, 11, 0.842) ;
   border-bottom: 1px solid #fff;
   visibility: hidden;
   opacity: 0;
@@ -319,7 +320,7 @@ a:hover, a:focus, a:active {
   background: rgb(224, 198, 195);
   color: rgb(0, 0, 0);
   font-weight: bold;
-  border: 1px solid #5C2018;
+  border: 1px solid #bd2410;
   padding-bottom: 15px;
   margin-bottom: 30px;
   -moz-transition: all, 0.3s;
@@ -333,7 +334,7 @@ a:hover, a:focus, a:active {
   border-radius: 10px;
 }
 .cause .cause-progress .progress-bar {
-  background: #5C2018;
+  background: #bd2410;
   box-shadow: none;
 }
 .cause .cause-img {
@@ -344,7 +345,7 @@ a:hover, a:focus, a:active {
   text-align: center;
   margin-bottom: 10px;
   font-weight: bold;
-  color: #5C2018;
+  color: #bd2410;
 }
 .cause .cause-details {
   text-align: justify;
@@ -356,12 +357,12 @@ a:hover, a:focus, a:active {
 .cause:hover {
   background: #ebe4e4;
   color: #000000;
-  border-color: #5C2018;
+  border-color: #bd2410;
   
 }
 .cause .btn-primary{
   color: white;
-  background-color: #5C2018;
+  background-color: #bd2410;
 }
 
 
@@ -369,11 +370,11 @@ a:hover, a:focus, a:active {
 /* Team 
 ================================= */
 .team-member {
-  background: #9a1750;
+  background: rgb(226, 6, 72);
   color: #fff;
   text-align: center;
   padding-bottom: 15px;
-  border: 1px solid #9a1750;
+  border: 1px solid rgb(226, 6, 72);
 }
 .team-member .thumnail img {
   width: 100%;
@@ -392,7 +393,7 @@ a:hover, a:focus, a:active {
   margin: 0 3%;
 }
 .footer-top {
-  background: #9a1750;
+  background: rgb(226, 6, 72);
   height: 40px;
 }
 
@@ -408,7 +409,7 @@ a:hover, a:focus, a:active {
   margin-bottom: 10px;
 }
 .main-footer .footer-title .title-under {
-  background: rgb(68, 142, 228);
+  background: rgb(207, 34, 63);
   margin: 15px 0;
   text-align: left;
   height: 2.1px;
@@ -425,13 +426,13 @@ a:hover, a:focus, a:active {
   padding-right: 38px;
 }
 .footer .tweet .btn-primary{
-  background-color: rgb(45, 93, 148);
+  background-color:  rgb(207, 34, 63);
 }
 .main-footer .tweet:after {
   content: "";
   height: 1.5px;
   display: block;
-  background: rgb(68, 142, 228);
+  background: rgb(207, 34, 63);
   width: 150px;
   margin: 15px auto;
 }
@@ -440,7 +441,7 @@ a:hover, a:focus, a:active {
 }
 
 .footer-bottom {
-  background: #97154e;
+  background: rgb(207, 34, 63);
   padding: 3px;
 }
 
@@ -448,7 +449,7 @@ a:hover, a:focus, a:active {
   margin-bottom: 5px;
 }
 .footer-form .form-control {
-  background: rgb(68, 142, 228);
+  background: rgb(207, 34, 63);
   color: #fff;
   border: 2px;
   border-radius: 8px;
@@ -457,7 +458,7 @@ a:hover, a:focus, a:active {
 }
 .footer-form .btn-submit {
   border-radius: 20px;
-  background: rgb(45, 93, 148);
+  background:  rgb(207, 34, 63);
   text-transform: uppercase;
   -moz-transition: all, 0.7s;
   -o-transition: all, 0.7s;
@@ -467,6 +468,7 @@ a:hover, a:focus, a:active {
 
 .footer-form .btn-submit:hover {
   background: #fff;
+  color: rgb(207, 34, 63);
 }
 .footer-form input:-moz-placeholder,
 .footer-form textarea:-moz-placeholder {
@@ -495,7 +497,7 @@ a:hover, a:focus, a:active {
   margin-top: -15px;
 }
 .page-title{
-  color: rgb(68, 142, 228);
+  color: rgb(207, 34, 63);
 }
 .page-heading .cause-carousel .item img{
   width:100%;
@@ -539,7 +541,7 @@ a:hover, a:focus, a:active {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background: #9a1750;
+  background: rgb(226, 6, 72);
   vertical-align: middle;
   margin-right: 5px;
   color: #fff;
@@ -555,9 +557,9 @@ a:hover, a:focus, a:active {
 ================================= */
 .contact-map {
   height: 350px;
-  background: linear-gradient(0deg,rgba(0, 99, 116, 0.747) 30%, rgba(68, 187, 187, 0.747) 100%);
-  border: 1.5px solid rgb(141, 0, 82);
-  border-bottom:  1.5px solid rgb(141, 0, 82);
+  background: linear-gradient(0deg, rgba(255, 85, 113, 0.671) 30%,  rgba(207, 34, 63, 0.643) 100%);
+  border: 1.5px solid rgb(226, 6, 72);
+  border-bottom:  1.5px solid rgb(226, 6, 72);
 }
 
 form .alert {
@@ -575,7 +577,7 @@ form .alert {
 	Module
 ========================================================================== */
 .btn-primary {
-  background: rgb(68, 142, 228);
+  background: rgb(207, 34, 63);
   border: none;
   border-radius: 20px;
   padding: 10px 25px;
@@ -584,31 +586,33 @@ form .alert {
   -o-transition: all, 0.3s;
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
+  border: 2px solid rgb(207, 34, 63);
 }
 .footer .btn-primary{
-  background: rgb(68, 142, 228);
+  background: rgb(207, 34, 63);
   color: #fff;
 }
 .footer .btn-primary:hover{
   background: #fff;
-  color: rgb(68, 142, 228);
-  border: 2px solid rgb(68, 142, 228);
+  color: rgb(207, 34, 63);
+  border: 2px solid rgb(207, 34, 63);
 }
 .btn-primary:hover {
   background: #fff;
-  color: rgb(68, 142, 228);
-  border: 1.5px solid rgb(68, 142, 228);
+  color: rgb(207, 34, 63);
+  border: 1.5px solid rgb(207, 34, 63);
 }
 
 .btn-secondary {
   background: #fff;
-  color: #5C2018;
+  color: #bd2410;
   border-radius: 24px;
-  border: 1px solid #5C2018;
+  border: 1px solid #bd2410;
 }
 .btn-secondary:hover {
-  background: #5C2018;
+  background: #bd2410;
   color: #fff;
+  border: 1px solid #bd2410;
 }
 
 .title-style-1 {
@@ -617,7 +621,7 @@ form .alert {
   text-transform: uppercase;
   font-size: 26px;
   margin-bottom: 50px;
-  color: #5C2018;
+  color: #bd2410;
 }
 
 .title-style-2 {
@@ -626,7 +630,7 @@ form .alert {
   text-transform: uppercase;
   font-size: 26px;
   margin-bottom: 25px;
-  color: #5C2018;
+  color: #bd2410;
 }
 .title-style-2 .title-under {
   display: block;
@@ -640,7 +644,7 @@ form .alert {
 .title-under {
   display: block;
   margin: 5px auto;
-  background: #5C2018;
+  background: #bd2410;
   height: 2px;
   width: 280px;
 }
@@ -666,8 +670,6 @@ form .alert {
 .title{
   font-family: cursive;
   font-size: xx-large;
-  border-bottom-color: palevioletred;
-  border-bottom-width: 5px;
 }
 .row .fuckoff{
   margin-left:3%;
@@ -687,7 +689,7 @@ form .alert {
   justify-content: center;
   align-items:center;
   flex-wrap: wrap;
-  background:linear-gradient(0deg, #e0dec3 30% , #d9a7c7bb  70%);
+  background:linear-gradient(0deg, rgb(195, 46, 46) 30% , rgb(226, 72, 67) 70%);
   flex-direction:column;
   box-shadow: 0 20px 20px rgba(0,0,0,0.8);
 }
@@ -696,20 +698,20 @@ form .alert {
 }
 
 .imgBx .contenue  {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 
 /* Tabeles
 ================================= */
 .table-style-1 thead {
-  background: #9a1750;
+  background: rgb(226, 6, 72);
   border-bottom: 1px solid #660036;
   color: #fff;
 }
 .table-style-1 td,
 .table-style-1 th {
-  border-bottom: 1px solid #9a1750;
+  border-bottom: 1px solid rgb(226, 6, 72);
 }
 
 .table-style-2 thead {
@@ -718,25 +720,25 @@ form .alert {
   color: #fff;
 }
 .table-style-2 tbody tr:nth-child(even) {
-  background: #9a1750;
+  background: rgb(226, 6, 72);
   color: #fff;
 }
 .table-style-2 td,
 .table-style-2 th {
-  border-bottom: 1px solid #9a1750;
+  border-bottom: 1px solid rgb(226, 6, 72);
 }
 
 /* Tabs
 ================================= */
 .nav-tabs {
-  border-bottom-color: #9a1750;
+  border-bottom-color: rgb(226, 6, 72);
   margin-bottom: 15px;
 }
 
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  background: #9a1750;
+  background: rgb(226, 6, 72);
   color: #fff;
 }
 .tweet a:hover{
@@ -748,22 +750,22 @@ form .alert {
 }
 
 .nav-tabs > li > a:hover {
-  border-color: #9a1750 #9a1750 #9a1750 ;
+  border-color: rgb(226, 6, 72) rgb(226, 6, 72) rgb(226, 6, 72) ;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
-  background: #5d001e;
+  background: #ac0036;
   color: #fff;
 }
 
 /* Accordion
 ================================= */
 .panel-default {
-  border-color: #9a1750;
+  border-color: rgb(226, 6, 72);
   border-radius: 0;
 }
 .panel-default > .panel-heading {
-  background: #9a1750;
+  background: rgb(226, 6, 72);
   color: #fff;
 }
 .panel-default > .panel-heading:hover {
@@ -776,7 +778,7 @@ form .alert {
   border-radius: 0;
 }
 .modal .modal-header {
-  background: rgb(45, 93, 148);
+  background:  rgb(207, 34, 63);
   color: #fff;
 }
 .modal .modal-header .close {
@@ -964,8 +966,8 @@ form .alert {
   .navbar-main li:hover .submenu li,
   .navbar-main li:active .submenu li,
   .navbar-main li:focus .submenu li {
-    background: #5d001e;
-    border-top-color: #9a1750;
+    background: #ac0036;
+    border-top-color: rgb(226, 6, 72);
   }
 
   .carousel-home .carousel-title {
@@ -975,7 +977,7 @@ form .alert {
     font-size: 16px;
   }
   .carousel-home .carousel-control {
-    background: #9a1750;
+    background: rgb(226, 6, 72);
     height: 40px;
     width: 20px;
     top: 50%;
