@@ -222,9 +222,9 @@ a:hover, a:focus, a:active {
   padding:5px 15px 3px 15px ;
   text-align: center;
   background-size: 100%;
-  background-image: -moz-linear-gradient(0deg,rgb(251, 93, 93) 30%, rgb(207, 34, 63)  100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(251, 93, 93) 30%, rgb(207, 34, 63)  100%);
-  background-image: linear-gradient(0deg,rgb(251, 93, 93) 30%, rgb(207, 34, 63)  100%);
+  background-image: -moz-linear-gradient(0deg,rgb(253, 116, 116) 0%, rgba(207, 34, 63, 0.883)  100%);
+  background-image: -webkit-linear-gradient(0deg,rgb(253, 116, 116) 0%, rgba(207, 34, 63, 0.883)  100%);
+  background-image: linear-gradient(0deg,rgb(253, 116, 116) 0%, rgba(207, 34, 63, 0.883)  100%);
   color: #fff;
 }
 .about-us-col:hover{
@@ -317,10 +317,9 @@ a:hover, a:focus, a:active {
 /* home/causes
 ================================= */
 .cause {
-  background: rgb(224, 198, 195);
-  color: rgb(0, 0, 0);
+  background: rgba(224, 198, 195, 0.383);
   font-weight: bold;
-  border: 1px solid #bd2410;
+  border: 1px solid rgb(207, 34, 63);
   padding-bottom: 15px;
   margin-bottom: 30px;
   -moz-transition: all, 0.3s;
@@ -330,11 +329,11 @@ a:hover, a:focus, a:active {
 }
 .cause .cause-progress {
   margin: 0 10px 15px;
-  border: 1.2px solid #ffffff;
+  border: 1px solid rgb(207, 34, 63);
   border-radius: 10px;
 }
 .cause .cause-progress .progress-bar {
-  background: #bd2410;
+  background: rgb(207, 34, 63);
   box-shadow: none;
 }
 .cause .cause-img {
@@ -345,7 +344,7 @@ a:hover, a:focus, a:active {
   text-align: center;
   margin-bottom: 10px;
   font-weight: bold;
-  color: #bd2410;
+  color: rgb(207, 34, 63);
 }
 .cause .cause-details {
   text-align: justify;
@@ -355,14 +354,11 @@ a:hover, a:focus, a:active {
   min-height: 115px;
 }
 .cause:hover {
-  background: #ebe4e4;
-  color: #000000;
-  border-color: #bd2410;
-  
+  background: #fdfdfd;
 }
 .cause .btn-primary{
   color: white;
-  background-color: #bd2410;
+  background-color: rgb(207, 34, 63);
 }
 
 
@@ -605,14 +601,14 @@ form .alert {
 
 .btn-secondary {
   background: #fff;
-  color: #bd2410;
+  color: rgb(207, 34, 63);
   border-radius: 24px;
-  border: 1px solid #bd2410;
+  border: 1px solid rgb(207, 34, 63);
 }
 .btn-secondary:hover {
-  background: #bd2410;
+  background: rgb(207, 34, 63);
   color: #fff;
-  border: 1px solid #bd2410;
+  border: 1px solid rgb(207, 34, 63);
 }
 
 .title-style-1 {
@@ -621,7 +617,7 @@ form .alert {
   text-transform: uppercase;
   font-size: 26px;
   margin-bottom: 50px;
-  color: #bd2410;
+  color: rgb(207, 34, 63);
 }
 
 .title-style-2 {
@@ -630,7 +626,7 @@ form .alert {
   text-transform: uppercase;
   font-size: 26px;
   margin-bottom: 25px;
-  color: #bd2410;
+  color: rgb(207, 34, 63);
 }
 .title-style-2 .title-under {
   display: block;
@@ -644,7 +640,7 @@ form .alert {
 .title-under {
   display: block;
   margin: 5px auto;
-  background: #bd2410;
+  background: rgb(207, 34, 63);
   height: 2px;
   width: 280px;
 }
