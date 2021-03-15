@@ -101,7 +101,7 @@ a:hover, a:focus, a:active {
 .navbar-main {
   margin-bottom: 0;
   color: #fff;
-  background: rgba(207, 34, 63);
+  background: rgb(226, 6, 72);
 }
 .navbar-main .navbar-brand {
   border-bottom: none !important;
@@ -118,7 +118,7 @@ a:hover, a:focus, a:active {
 .navbar-main .submenu {
   position: absolute;
   list-style: none;
-  background: rgba(207, 34, 63);
+  background: rgb(226, 6, 72);
   padding: 0;
   width: 150px;
   left: -35px;
@@ -171,7 +171,7 @@ a:hover, a:focus, a:active {
   width: 100%;
 }
 .carousel-home .carousel-control {
-  background: rgba(207, 34, 63);
+  background: rgb(226, 6, 72);
   height: 80px;
   width: 40px;
   top: 50%;
@@ -222,9 +222,10 @@ a:hover, a:focus, a:active {
   padding:5px 15px 3px 15px ;
   text-align: center;
   background-size: 100%;
-  background-image: -moz-linear-gradient(0deg,rgb(255, 172, 164) 73%, rgba(207, 34, 63, 0.89)  73%);
-  background-image: -webkit-linear-gradient(0deg,rgb(255, 172, 164) 73%, rgba(207, 34, 63, 0.89)  73%);
-  background-image: linear-gradient(0deg,rgb(250, 191, 185) 73%, rgba(207, 34, 63, 0.685)  73%)
+  background-image: -moz-linear-gradient(0deg,rgb(251, 93, 93) 30%, rgb(207, 34, 63)  100%);
+  background-image: -webkit-linear-gradient(0deg, rgb(251, 93, 93) 30%, rgb(207, 34, 63)  100%);
+  background-image: linear-gradient(0deg,rgb(251, 93, 93) 30%, rgb(207, 34, 63)  100%);
+  color: #fff;
 }
 .about-us-col:hover{
   transform: scale(1.07);
@@ -240,8 +241,16 @@ a:hover, a:focus, a:active {
   text-align:left;
   margin-bottom: 25px;
 }
-
-
+.col-details .btn-secondary{
+  background-color:  rgb(207, 34, 63);
+  color: white;
+  border:1px solid white;
+}
+.col-details .btn-secondary:hover{
+  background-color: white;
+  color:  rgb(207, 34, 63) ;
+  border:1px solid  rgb(207, 34, 63) ;
+}
 /* home/reasons 
 ================================= */
 .home-reasons {
@@ -308,9 +317,10 @@ a:hover, a:focus, a:active {
 /* home/causes
 ================================= */
 .cause {
-  background: rgba(238, 196, 191, 0.685);
+  background: rgb(224, 198, 195);
+  color: rgb(0, 0, 0);
   font-weight: bold;
-  border: 1px solid rgb(207, 34, 63);
+  border: 1px solid #bd2410;
   padding-bottom: 15px;
   margin-bottom: 30px;
   -moz-transition: all, 0.3s;
@@ -318,16 +328,13 @@ a:hover, a:focus, a:active {
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
 }
-.cause:hover {
-  background: rgb(238, 196, 191);
-}
 .cause .cause-progress {
   margin: 0 10px 15px;
-  border: 1px solid #ffffff;
+  border: 1.2px solid #ffffff;
   border-radius: 10px;
 }
 .cause .cause-progress .progress-bar {
-  background: rgb(207, 34, 63);
+  background: #bd2410;
   box-shadow: none;
 }
 .cause .cause-img {
@@ -338,7 +345,7 @@ a:hover, a:focus, a:active {
   text-align: center;
   margin-bottom: 10px;
   font-weight: bold;
-  color: rgb(207, 34, 63);
+  color: #bd2410;
 }
 .cause .cause-details {
   text-align: justify;
@@ -347,10 +354,15 @@ a:hover, a:focus, a:active {
   margin-bottom: 15px;
   min-height: 115px;
 }
-
+.cause:hover {
+  background: #ebe4e4;
+  color: #000000;
+  border-color: #bd2410;
+  
+}
 .cause .btn-primary{
   color: white;
-  background-color: rgb(207, 34, 63);
+  background-color: #bd2410;
 }
 
 
@@ -358,11 +370,11 @@ a:hover, a:focus, a:active {
 /* Team 
 ================================= */
 .team-member {
-  background: rgba(207, 34, 63);
+  background: rgb(226, 6, 72);
   color: #fff;
   text-align: center;
   padding-bottom: 15px;
-  border: 1px solid rgba(207, 34, 63);
+  border: 1px solid rgb(226, 6, 72);
 }
 .team-member .thumnail img {
   width: 100%;
@@ -381,7 +393,7 @@ a:hover, a:focus, a:active {
   margin: 0 3%;
 }
 .footer-top {
-  background: rgba(207, 34, 63);
+  background: rgb(226, 6, 72);
   height: 40px;
 }
 
@@ -529,7 +541,7 @@ a:hover, a:focus, a:active {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background: rgba(207, 34, 63);
+  background: rgb(226, 6, 72);
   vertical-align: middle;
   margin-right: 5px;
   color: #fff;
@@ -546,8 +558,8 @@ a:hover, a:focus, a:active {
 .contact-map {
   height: 350px;
   background: linear-gradient(0deg, rgba(255, 85, 113, 0.671) 30%,  rgba(207, 34, 63, 0.643) 100%);
-  border: 1.5px solid rgba(207, 34, 63);
-  border-bottom:  1.5px solid rgba(207, 34, 63);
+  border: 1.5px solid rgb(226, 6, 72);
+  border-bottom:  1.5px solid rgb(226, 6, 72);
 }
 
 form .alert {
@@ -593,14 +605,14 @@ form .alert {
 
 .btn-secondary {
   background: #fff;
-  color: rgb(207, 34, 63);
+  color: #bd2410;
   border-radius: 24px;
-  border: 1.7px solid rgb(207, 34, 63);
+  border: 1px solid #bd2410;
 }
 .btn-secondary:hover {
-  background: rgb(207, 34, 63);
+  background: #bd2410;
   color: #fff;
-  border: 1.7px solid white;
+  border: 1px solid #bd2410;
 }
 
 .title-style-1 {
@@ -609,7 +621,7 @@ form .alert {
   text-transform: uppercase;
   font-size: 26px;
   margin-bottom: 50px;
-  color: rgb(207, 34, 63);
+  color: #bd2410;
 }
 
 .title-style-2 {
@@ -618,7 +630,7 @@ form .alert {
   text-transform: uppercase;
   font-size: 26px;
   margin-bottom: 25px;
-  color: rgb(207, 34, 63);
+  color: #bd2410;
 }
 .title-style-2 .title-under {
   display: block;
@@ -632,7 +644,7 @@ form .alert {
 .title-under {
   display: block;
   margin: 5px auto;
-  background: rgb(207, 34, 63);
+  background: #bd2410;
   height: 2px;
   width: 280px;
 }
@@ -693,13 +705,13 @@ form .alert {
 /* Tabeles
 ================================= */
 .table-style-1 thead {
-  background: rgba(207, 34, 63);
+  background: rgb(226, 6, 72);
   border-bottom: 1px solid #660036;
   color: #fff;
 }
 .table-style-1 td,
 .table-style-1 th {
-  border-bottom: 1px solid rgba(207, 34, 63);
+  border-bottom: 1px solid rgb(226, 6, 72);
 }
 
 .table-style-2 thead {
@@ -708,25 +720,25 @@ form .alert {
   color: #fff;
 }
 .table-style-2 tbody tr:nth-child(even) {
-  background: rgba(207, 34, 63);
+  background: rgb(226, 6, 72);
   color: #fff;
 }
 .table-style-2 td,
 .table-style-2 th {
-  border-bottom: 1px solid rgba(207, 34, 63);
+  border-bottom: 1px solid rgb(226, 6, 72);
 }
 
 /* Tabs
 ================================= */
 .nav-tabs {
-  border-bottom-color: rgba(207, 34, 63);
+  border-bottom-color: rgb(226, 6, 72);
   margin-bottom: 15px;
 }
 
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  background: rgba(207, 34, 63);
+  background: rgb(226, 6, 72);
   color: #fff;
 }
 .tweet a:hover{
@@ -738,7 +750,7 @@ form .alert {
 }
 
 .nav-tabs > li > a:hover {
-  border-color: rgba(207, 34, 63) rgba(207, 34, 63) rgba(207, 34, 63) ;
+  border-color: rgb(226, 6, 72) rgb(226, 6, 72) rgb(226, 6, 72) ;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
@@ -749,11 +761,11 @@ form .alert {
 /* Accordion
 ================================= */
 .panel-default {
-  border-color: rgba(207, 34, 63);
+  border-color: rgb(226, 6, 72);
   border-radius: 0;
 }
 .panel-default > .panel-heading {
-  background: rgba(207, 34, 63);
+  background: rgb(226, 6, 72);
   color: #fff;
 }
 .panel-default > .panel-heading:hover {
@@ -955,7 +967,7 @@ form .alert {
   .navbar-main li:active .submenu li,
   .navbar-main li:focus .submenu li {
     background: #ac0036;
-    border-top-color: rgba(207, 34, 63);
+    border-top-color: rgb(226, 6, 72);
   }
 
   .carousel-home .carousel-title {
@@ -965,7 +977,7 @@ form .alert {
     font-size: 16px;
   }
   .carousel-home .carousel-control {
-    background: rgba(207, 34, 63);
+    background: rgb(226, 6, 72);
     height: 40px;
     width: 20px;
     top: 50%;
