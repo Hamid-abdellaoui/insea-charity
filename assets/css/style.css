@@ -330,7 +330,7 @@ a:hover, a:focus, a:active {
 }
 .cause .cause-progress {
   margin: 0 10px 15px;
-  border: 1.2px solid #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 10px;
 }
 .cause .cause-progress .progress-bar {
