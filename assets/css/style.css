@@ -331,6 +331,7 @@ a:hover, a:focus, a:active {
   margin: 0 10px 15px;
   border: 1px solid rgb(207, 34, 63);
   border-radius: 10px;
+  color:rgb(207, 34, 63);
 }
 .cause .cause-progress .progress-bar {
   background: rgb(207, 34, 63);
