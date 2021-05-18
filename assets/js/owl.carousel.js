@@ -200,8 +200,8 @@
 	 */
 	Owl.Defaults = {
 		items: 3,
-		loop: false,
-		center: false,
+		loop: true,
+		center: true,
 
 		mouseDrag: true,
 		touchDrag: true,
