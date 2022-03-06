@@ -1,0 +1,134 @@
+<%- include("partials/header"); -%> 
+
+    <div class="page-heading fadeIn animated">
+
+        <div id="cause-carousel" class="carousel slide cause-carousel" data-ride="carousel">
+  
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#cause-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#cause-carousel" data-slide-to="1"></li>
+              <li data-target="#cause-carousel" data-slide-to="2"></li>
+              <li data-target="#cause-carousel" data-slide-to="3"></li>
+            </ol>
+  
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+  
+              <div class="item active">
+  
+                <img src="assets/images/heading/heading-4.jpg" alt="">
+                
+              </div>
+              <div class="item">
+  
+                <img src="assets/images/heading/heading-2.jpg" alt="">
+                
+              </div>
+              <div class="item">
+  
+                <img src="assets/images/heading/heading-1.jpg" alt="">
+                
+              </div>
+  
+              <div class="item">
+  
+                <img src="assets/images/heading/heading-3.jpg" alt="">
+                
+              </div>
+  
+            </div>
+        </div>
+  
+      </div>
+  
+  
+
+	<div class="main-container fadeIn animated">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-7 col-sm-12 col-form">
+
+					<h2 class="title-style-2">CONTACT FORM <span class="title-under"></span></h2>
+
+					<form action="php/mail.php" class="contact-form ajax-form">
+
+						<div class="row">
+
+							<div class="form-group col-md-6">
+	                            <input type="text" name="name" class="form-control" placeholder="Name*" required>
+	                        </div>
+
+	                         <div class="form-group col-md-6">
+	                            <input type="email" name="email" class="form-control" placeholder="E-mail*" required>
+	                        </div>
+							
+						</div>
+
+                        <div class="form-group">
+                            <textarea name="message" rows="5" class="form-control" placeholder="Message*" required></textarea>
+                        </div>
+
+                        <div class="form-group alerts">
+                        
+                        	<div class="alert alert-success" role="alert">
+							  
+							</div>
+
+							<div class="alert alert-danger" role="alert">
+							  
+							</div>
+							
+                        </div>	
+
+                         <div class="form-group">
+                            <button type="submit" class="btn btn-primary pull-right">Send message</button>
+                        </div>
+
+                        <div class="clearfix"></div>
+
+					</form>
+
+				</div>
+
+				<div class="col-md-4 col-md-offset-1 col-contact">
+
+					<h2 class="title-style-2"> INSEA Charity CONTACTS <span class="title-under"></span></h2>
+					<p style="color: black;" >
+						<b>Notre club est active sur les réseaux sociaux , et à l'écoute de vos suggestions, vos commentaires et vos questions. Si vous 
+                        voulez nous aider nous serons reconaissants.</b>
+					</p>
+
+					<div class="contact-items">
+
+						<ul class="list-unstyled contact-items-list" style="color: black;">
+							<li class="contact-item"> <span class="contact-icon"> <i class="fa fa-map-marker"></i></span> Terminus tramway, INSEA, Avenue Allal Al Fassi, Rabat 10100</li>
+							<li class="contact-item"> <span class="contact-icon"> <i class="fa fa-phone"></i></span>tel: +212 660 697 761</li>
+
+							<li class="contact-item"> <span class="contact-icon"> <i class="fa fa-envelope"></i></span> inseacharity@gmail.com</li>
+						</ul>
+					</div>
+
+					
+					
+				</div>
+
+			</div> <!-- /.row -->
+
+
+		</div>
+		
+
+
+	</div>
+
+	<div id="contact-map" class="contact-map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.418268820522!2d-6.86515744938336!3d33.98178872879227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76dae769c7dab%3A0xfcb232dbb86d3a79!2sClub%20Social%20Insea%20Charity!5e0!3m2!1sfr!2sma!4v1615321825892!5m2!1sfr!2sma" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</div>
+<br> <br>
+
+
+<%- include("partials/footer"); -%>
