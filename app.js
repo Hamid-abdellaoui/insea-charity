@@ -62,34 +62,7 @@ app.get("/post4", function(req, res) {
   res.render("post4");
 });
 
-app.post("/compose", function(req, res) {
-  const post = {
-    title: req.body.postTitle,
-    body: req.body.postBody
-  };
-  posts.push(post);
-  res.redirect("/");
-});
-
-// Render a single blog post with url of /posts/:postName
-app.get("/posts/:postName", function(req, res) {
-  // Find the post in the posts array and render it with post.ejs
-  const requestedTitle = _.lowerCase(req.params.postName);
-
-  posts.forEach (function (post) {
-    const storedTitle = _.lowerCase(post.title);
-
-    if (requestedTitle === storedTitle) {
-      const storedBody = post.body;
-      res.render("post", {
-        postTitle: post.title,
-        postBody: post.body
-      });
-    };
-  });
-});
 
 app.listen(3000, function() {
   console.log("Server started on port 3000");
-  console.log('wwww.localhost:3000');
 });
